@@ -1,0 +1,37 @@
+body {
+    font-size: 16px;
+    line-height: 1.5;
+	padding-top: 50px;
+}
+
+header .navbar {
+    border-radius: 0;
+    margin: 0;
+}
+
+main {
+    min-height: 500px;
+    padding: 50px 0;
+}
+
+.selectpicker {
+    height: 34px;
+    border-radius: 4px;
+}
+
+p { 
+ color: #000;
+}
+
+.navbar-inverse {
+	background-color: #fff !important; 
+}
+
+
+.reproducao {
+		border-style: solid;
+		border-color: Blue;
+		height: 300px;
+}
+
+.video {height: 295px;}

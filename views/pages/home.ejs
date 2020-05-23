@@ -1,0 +1,28 @@
+<%- contentFor('body') %>
+<div class="jumbotron text-center">
+    <div class="container">
+        <div class="navbar-header">
+			<img src="/imagem/trasmontano.png" width="100px" height="80px">
+            <a class="navbar-brand" href="#">Trasmontano Telemedicina</a>
+        </div>
+    </div>
+	
+	<table style="width:100%">
+	  <tr>
+		<th><p>Local:</p><div  class="reproducao" id="#local" ><video class="video" id="remoteVideo" autoplay></video></div></th>
+		<th><p>Remoto:</p><div class="reproducao" id="#remoto"><video class="video" id="localVideo"  autoplay muted></video></div></th>
+	  </tr>
+	</table>	
+	
+	<br>
+	<br>
+	
+	<div class="form-group">
+	  <p>
+	  <button type="button" class="btn btn-primary" id="videoCallButton" disabled>Iniciar atendimento</button>
+      <button type="button" class="btn btn-primary" id="endCallButton"   disabled>Limpar</button>
+      </p> 
+	</div>	
+	
+    <script>window.addEventListener("load", pageReady);</script>
+</div>
